@@ -1,0 +1,42 @@
+.accordion {
+  width: 50vw;
+  margin: auto;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.accordion .collapse {
+  background: #fff;
+}
+.accordion .collapse a {
+  display: block;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.9rem 1.8rem;
+  color: #fff;
+  position: relative;
+}
+.accordion .collapse a:before {
+  content: "";
+  border-top: 7px solid #fff;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  position: absolute;
+  top: 25px;
+  right: 30px;
+}
+.accordion .content .inner-content {
+  padding: 1.8rem;
+}
+.accordion .content {
+  max-height: 0em;
+  transition: 0.3s linear 0s;
+  overflow: hidden;
+}
+.accordion .collapse + .accordion .collapse a {
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+}
+.accordion .collapse:target .content {
+  max-height: 15em;
+}
+.accordion .collapse:target a:before {
+  transform: rotate(-90deg);
+}

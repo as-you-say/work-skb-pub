@@ -1,0 +1,129 @@
+#header {
+  width: 100%;
+  height: 60px;
+  -moz-box-shadow: 0px 0px 19px #585858;
+  -webkit-box-shadow: 0px 0px 19px #585858;
+  box-shadow: 0px 0px 5px #585858;
+  background: -moz-linear-gradient(to right, #145bab, #32a4df);
+  background: -webkit-linear-gradient(to right, #145bab, #32a4df);
+  background: -o-linear-gradient(to right, #145bab, #32a4df);
+  background: -ms-linear-gradient(to right, #145bab, #32a4df);
+  background: linear-gradient(to right, #145bab, #32a4df);
+  z-index: 5;
+}
+
+.header {
+  color: #fff;
+  position: relative;
+}
+.header .logo {
+  position: absolute;
+  left: 95px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.header .logo .text {
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 600;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+.header .logo .mode {
+  display: inline-block;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  padding: 1px 14px;
+  vertical-align: middle;
+  margin-top: 2px;
+}
+.header .account {
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+}
+.header .account .menu {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  vertical-align: middle;
+}
+.header .account .menu i {
+  color: #fff;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.header .account .menu .dropdown {
+  position: absolute;
+  top: 45px;
+  left: -170px;
+  background-color: #dbdbdb;
+  width: 200px;
+  height: 0;
+  overflow: hidden;
+}
+.header .account .menu .dropdown.on {
+  height: 185px;
+  transition: height .5s;
+}
+.header .account .menu .dropdown .info {
+  padding: 20px 22px 10px 22px;
+  border-radius: 3px 3px 0 0;
+  background-color: #314b68;
+  color: #adb7c3;
+  height: 125px;
+}
+.header .account .menu .dropdown .info dt {
+  float: left;
+  margin-bottom: 10px;
+  width: 40%;
+}
+.header .account .menu .dropdown .info dd {
+  float: left;
+  width: 60%;
+  margin-bottom: 10px;
+  color: #ebedf0;
+}
+.header .account .menu .dropdown .button-wrap {
+  margin-top: 0;
+  padding: 16.5px 22px;
+  background-color: #1b3249;
+  border-top: 1px solid #465d77;
+  border-radius: 0 0 3px 3px;
+  height: 60px;
+  line-height: 60px;
+}
+.header .account .menu .dropdown .button-wrap button {
+  height: 26px;
+  padding: 0 7px;
+  border: 1px solid #495b6d;
+  background-color: #1b3249;
+  color: #8d99a4;
+  border-radius: 3px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.header .account .menu .dropdown .button-wrap button:hover {
+  color: #fff;
+  border: 1px solid #fff;
+  transition: all .3s;
+}
+.header .account .menu .dropdown .button-wrap .modify {
+  float: left;
+}
+.header .account .menu .dropdown .button-wrap .logout {
+  float: right;
+}
+.header .account .id {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+}
