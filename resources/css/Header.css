@@ -65,10 +65,10 @@
   position: absolute;
   top: 45px;
   left: -170px;
-  background-color: #dbdbdb;
   width: 200px;
   height: 0;
   overflow: hidden;
+  border-radius: 3px;
 }
 .header .account .menu .dropdown.on {
   height: 185px;
