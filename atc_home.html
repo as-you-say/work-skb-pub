@@ -5,10 +5,13 @@
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
   <title>SKB 따라하기</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel='stylesheet' type='text/css' media='screen' href='resources/css/_reset.css'>
-  <link rel='stylesheet' type='text/css' media='screen' href='resources/fontawesome/css/all.min.css'>
-  <link rel='stylesheet' type='text/css' media='screen' href='resources/css/Header.css'>
-  <link rel='stylesheet' type='text/css' media='screen' href='resources/css/SideBar.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='./resources/css/_reset.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='./resources/fontawesome/css/all.min.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='./resources/css/Layout.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='./resources/css/Header.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='./resources/css/SideBar.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='./resources/css/Accordion.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='./resources/css/Card.css'>
 </head>
 <body>
 
@@ -107,52 +110,62 @@
   </aside>
   <!-- //사이드바 -->
 
-  <section id="contents" class="contents">
-    <section id="accordion" class="accordion">
-      <div class="collapse" id="instagram">
-        <a class="instagram" href="#instagram">
-          <i class="fab fa-instagram"></i> Instagram
-        </a>
-        <div class="content">
-          <div class="inner-content">
-          </div>
-        </div>
-      </div>
-      <div class="collapse" id="twitter">
-        <a class="twitter" href="#twitter">
-          <i class="fab fa-twitter"></i> Twitter
-        </a>
-        <div class="content">
-          <div class="inner-content">
-          </div>
-        </div>
-      </div>
-      <div class="collapse" id="dribbble">
-        <a class="dribbble" href="#dribbble">
-          <i class="fab fa-dribbble"></i> Dribble
-        </a>
-        <div class="content">
-          <div class="inner-content">
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="card" class="card">
-      <div class="title">
-        <h2>제목입니다</h2>
-        <p>
-          <i class=""></i>
-          <span>&gt;</span>
-          <span></span>
-          <span>&gt;</span>
-          <span></span>
-        </p>
-      </div>
+  <!-- 아코디언 -->
+  <section id="accordion" class="accordion">
+    <div class="collapse" id="01">
+      <a class="instagram" href="#01">
+        <i class="fab fa-instagram"></i> Instagram
+      </a>
       <div class="content">
-
+        <div class="inner-content">
+          adsfasdfasdfasfasdf
+        </div>
       </div>
-    </section>
+    </div>
+    <div class="collapse" id="02">
+      <a class="twitter" href="#02">
+        <i class="fab fa-twitter"></i> Twitter
+      </a>
+      <div class="content">
+        <div class="inner-content">
+          dsafasdfasdfasdf
+        </div>
+      </div>
+    </div>
+    <div class="collapse" id="03">
+      <a class="dribbble" href="#03">
+        <i class="fab fa-dribbble"></i> Dribble
+      </a>
+      <div class="content">
+        <div class="inner-content">
+          sdfafdsfasdf
+        </div>
+      </div>
+    </div>
   </section>
+  <!-- //아코디언 -->
+
+  <!-- 카드 -->
+  <section id="card" class="card" style="display: none;">
+    <header class="header clear">
+      <h1 class="title">제목입니다</h1>
+      <p class="location">
+        <i class="fas fa-home"></i>
+        <span>&gt;</span>
+        <span>1뎁스</span>
+        <span>&gt;</span>
+        <span>2뎁스</span>
+      </p>
+    </header>
+    <div class="content">
+    </div>
+  </section>
+  <!-- //카드 -->
+
+  <!-- 팝업 -->
+  <div class="popup"></div>
+  <!-- //팝업 -->
+
+
 </body>
 </html>

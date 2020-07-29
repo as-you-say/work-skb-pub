@@ -1,0 +1,25 @@
+/* 공통부분 */
+.card {}
+.card .header {
+    color: #333;
+    padding: 0 0 12px 0;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #d3d3d3;
+}
+.card .header .title {
+    float: left;
+    font-size: 28px;
+    font-weight: 600;
+}
+.card .header .location {
+    float: right;
+    color: #777;
+    margin-top: 20px;
+}
+.card .header .location>span {
+    margin-left: 10px;
+}
+
+/* 1. 테이블 카드 */
+
+/* 2. 이력 카드 */
